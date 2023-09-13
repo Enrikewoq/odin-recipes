@@ -1,6 +1,44 @@
 header {
     background-color: rgb(243, 238, 187);
 }
+main {
+    margin: 0 auto;
+}
+
+.search, .main-buttons, .more-style{
+    border-color: rgb(66, 60, 33);
+    border-radius: 5px;
+    border-width: 1px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 4px;
+}
+.more-style {
+    border: solid 1px;
+    width: 63px;
+    height: 20px;
+    background-color: rgb(243, 238, 187);
+    color: rgb(66, 60, 33);
+    padding-top: 7px;
+}
+.search {
+    height: 23px;
+    float: right;
+    margin-right: 20px;
+}
+
+.link-style, main a {
+    text-decoration: none;
+}
+
+.dish-image {
+    height: 500px;
+}
+.main-buttons {
+    text-decoration: none;
+}
 .title {
     font-size: 40px;
     margin-bottom: 1px;
@@ -9,6 +47,7 @@ header {
     margin-top: 1px;
 }
 .title,.phrase, .back{
+    margin-top: 10px;
     text-align: center;
 }
 .menu {
@@ -22,18 +61,6 @@ header {
 ul a {
     color: rgb(66, 60, 33);
 }
-.search, .main-buttons{
-    border-color: rgb(66, 60, 33);
-    border-radius: 5px;
-    height: 35px;
-    border: solid 1px;
+button a {
     color: rgb(66, 60, 33);
-    font-size: 15px;
-    font-weight: bold;
-    padding: 5px;
-}
-.search {
-    height: 25px;
-    float: right;
-    margin-right: 20px;
 }
